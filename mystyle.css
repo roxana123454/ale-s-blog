@@ -1,0 +1,94 @@
+.meniu{
+    margin-left: 230px;
+    margin-top: 20px;
+    color: rgb(194, 18, 47);
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+    display: inline-block;
+    font-weight: 600;
+}
+
+.meniu:hover{
+    color: rgb(165, 58, 165);
+}
+
+.title{
+    margin-left: 600px;
+    width: 800px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 45px;
+    margin-top: 100px;
+    display: block;
+}
+
+.under_title{
+    color: rgb(12, 145, 72);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    display: inline-block;
+}
+.first{
+    margin-left: 500px;
+}
+.image{
+    width: 500px;
+    display: block;
+    margin: 0 auto;
+}
+.description{
+    width: 1000px;
+    display: block;
+    margin: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    color: rgb(71, 20, 225);
+}
+
+header{
+    position: sticky;
+    top:0;
+    background-color: rgb(156, 158, 185);
+}
+
+.subscribe{
+    padding: 10px;
+    background-color: rgb(231, 16, 134);
+}
+
+.subscribe input{
+    width: 200px;
+    padding: 5px;
+}
+
+.subscribe button{
+    background-color: rgb(219, 98, 238);
+    border:none;
+    padding: 5px 10 px;
+    color:rgb(166, 13, 13);
+    font-weight: bold;
+
+}
+
+.review{
+    margin-top: 50px;
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.rating{
+    font-size: 20px;
+    margin-bottom: 10px;
+
+}
+
+input[type="text"], select, textarea{
+    width:100%;
+    padding:12px;
+    border:2px solid rgb(75, 72, 72);
+    margin-top: 10px;
+    margin-bottom:20px;
+
+
+}
